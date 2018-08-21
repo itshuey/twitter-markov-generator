@@ -1,13 +1,13 @@
 # twitter-markov-generator
 
 This python project is composed of three units:
-- markovGenerator reads .txt files and generates text in that style
+- markovGenerator reads .txt files and uses a Markov Chain algorithm to generate text in that style
 - twitterScraper takes an input handle and stores the past 300 tweets in a .txt file
-- main provides interactive UI that guides you through generator your own text
+- main provides interactive UI that guides you through generating your own text
 
 Unfortunately, twitterScraper is not a true web scraper, and relies on Twitter API and Tweepy. I obtained access tokens by applying through twitter's website, but as they expire, you will not be able to use the majority of this project without contacting me. Feel free to reach out to me [here](mailto:hssa2016@mymail.pomona.edu) or [obtain your own tokens](https://developer.twitter.com/content/developer-twitter/en.html).
 
-Because of this, I have included a catalog of .txt files including Donald Trump and Barack Obama's recent tweets, as well as some Shakespeare. I will try to update this repository with new .txt files! I recommend running the main.py file, but I have included example function calls for the other files as well.
+Because of this, I have included a catalog of .txt files including Donald Trump and Barack Obama's recent tweets, as well as some of Shakespeare's sonnets. I will try to update this repository with new .txt files! I recommend running the main.py file, but I have included example function calls for the other files as well.
 
 Enjoy!
 
