@@ -17,9 +17,7 @@ Enjoy!
 
 .
 
-p.s.
-
-Here are some mock Trump tweets!
+p.s. Here are some mock Trump tweets!
 
 In [30]: generateText(d,50)
 
