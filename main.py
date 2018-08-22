@@ -27,12 +27,13 @@ def get_all_tweets(screen_name):
     api = tweepy.API(auth)
 
     alltweets = []  
-    new_tweets = api.user_timeline(screen_name = screen_name,count=200,tweet_mode ='extended')
+    new_tweets = api.user_timeline(screen_name = screen_name,count=50,tweet_mode ='extended')
     alltweets.extend(new_tweets)
     oldest = alltweets[-1].id - 1
 
     while len(new_tweets) > 0 and len(alltweets) < 100:
-        print ("getting tweets before %s" % (oldest))
+        print()
+        print ("Getting tweets!")
         new_tweets = api.user_timeline(screen_name = screen_name,count=200,max_id=oldest,tweet_mode='extended')
         alltweets.extend(new_tweets)
         oldest = alltweets[-1].id - 1
@@ -54,6 +55,7 @@ def main():
     # for easy user navigation! Hope you enjoy!
     #
 
+    print()
     print("Hey there! We are going to generate text via a Markov Chain algorithm!")
     print("Do you want to use a local .txt file or scrape a twitter page? Type 'local' or 'twitter': ")
     mode = input("     > ")
