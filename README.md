@@ -24,7 +24,9 @@ In [30]: generateText(d,50)
 ```
 
 ```
-Out[30]: 'The Boston Globe, which is making the President, when she says is a foreign power. We can, and that depends on in their currency, the ninth month since I know it’s “not presidential” to Troy loves the Pacific Ocean. Thank you showed me. If I campaign colluded with his political '
+Out[30]: 'The Boston Globe, which is making the President, when she says is a foreign power. We can,
+         and that depends on in their currency, the ninth month since I know it’s “not presidential”
+         to Troy loves the Pacific Ocean. Thank you. If I campaign colluded with his political '
 ```
 
 ```
@@ -32,7 +34,10 @@ In [31]: generateText(d,50)
 ```
 
 ```
-Out[31]: 'Phony Dossier, FISA Court Judge. Fixing our workers! She is about Comey’s firing, afraid the U.S., our warfighters in the Democrat Thugs spent over nothing for Governor for the rigged investigation he was a big and fast! Great Country....BUT WE ARE WINNING! Other Countries should be dropped? RT @realDonaldTrump: Troy '
+Out[31]: 'Phony Dossier, FISA Court Judge. Fixing our workers! She is about Comey’s firing, afraid
+         the U.S., our warfighters in the Democrat Thugs spent over nothing for Governor for the 
+         rigged investigation he was a big and fast! Great Country....BUT WE ARE WINNING! Other
+         Countries should be dropped? RT @realDonaldTrump: Troy '
 ```
 
 ```
@@ -40,5 +45,8 @@ In [32]: generateText(d,50)
 ```
 
 ```
-Out[32]: "Congratulations to take out and for twenty years as 'pro-black' at Russia probe will be a spy - African American and countries use Page as an Alabama Coal Mine” https://t.co/IwLEO9ff9X Lou Dobbs: “This is a job, tears in another way to Gregg Jarrett. https://t.co/TmICRUV9uo ...I say anything so Fake News "
+Out[32]: "Congratulations to take out and for twenty years as 'pro-black' at Russia probe will be a spy
+         - African American and countries use Page as an Alabama Coal Mine” https://t.co/IwLEO9ff9X 
+         Lou Dobbs: “This is a job, tears in another way to Gregg Jarrett. https://t.co/TmICRUV9uo
+         ...I say anything so Fake News "
 ```
