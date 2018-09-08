@@ -1,12 +1,5 @@
 # coding: utf-8
 #
-# the top line, above, is important -- 
-# in ensures that Python will be able to use this file,
-# even in the case you paste in text with unicode characters
-# (beyond ASCII)
-# for an more expansive example of such a file, see
-#    http://www.cl.cam.ac.uk/~mgk25/ucs/examples/UTF-8-demo.txt
-#
 # hUEY
 #
 
@@ -18,31 +11,31 @@
 # fuction 1:
 # creating our dictionary
 def createDictionary( filename ):
-    """ creating our Dictionary of words from a text file
+    """ creating our Dictionary from a .txt file
     """
     f = open(filename)
     text = f.read()
     f.close()
 
     #create our list of words
-    LoW = text.split()
+    wordlist = text.split()
     print("Successfully created dictionary!")
-    print("There are", len(LoW), "words.")
+    print("There are", len(wordlist), "words.")
 
     #initialize our dictionary & opening key
     d = {}
-    pw = '$'
+    key = '$'
 
     #iterate through the new words
-    for nw in LoW:
-        if pw not in d: d[pw] = [nw]
-        else:           d[pw] += [nw]
+    for word in wordlist:
+        if key not in d: d[key] = [word]
+        else:            d[key] += [word]
 
         #check if the sentence ended there
-        if nw[-1] in '!.?':
-            pw = '$'
+        if word[-1] in '!.?':
+            key = '$'
         else:
-            pw = nw 
+            key = word 
 
     return d
 
@@ -53,19 +46,19 @@ def createDictionary( filename ):
 def generateText(d,N):
     
     #initialize to sentence start
-    pw = '$'
+    key = '$'
     import random
-    s = ''
+    output = ''
 
-    #randomly pick the next word
+    #randomly pick the word word
     for i in range(N):
-        nw = random.choice(d[pw])
-        s += nw + ' '
+        word = random.choice(d[key])
+        output += word + ' '
 
         #new sentence case
-        if nw[-1] in '!.?':
-            pw = '$'
+        if word[-1] in '!.?':
+            key = '$'
         else:
-            pw = nw
+            key = word
 
-    return s
+    return output
