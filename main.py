@@ -15,10 +15,10 @@ import random
 
 #Twitter API credentials
 #Fill these in!
-consumer_key = "TX1pHFKs25LYON1G2RexlffKv"
-consumer_secret = "2J7Kgv3ADsAgwCNkhobtkGafTAYh6jMT6YrfnYwQXSi1UikntH"
-access_key = "980686444313247744-svYEbkkU3DF35AlnfjGFDXRYnxfQd0p"
-access_secret = "7e0ntRAlLJ1UUCRiMnnjLe62PByFl5EjwVWz41J00mbvw"
+consumer_key = ""
+consumer_secret = ""
+access_key = ""
+access_secret = ""
 
 def get_all_tweets(screen_name):
 
