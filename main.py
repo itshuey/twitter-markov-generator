@@ -15,10 +15,10 @@ import random
 
 #Twitter API credentials
 #Fill these in!
-consumer_key = ""
-consumer_secret = ""
-access_key = ""
-access_secret = ""
+consumer_key = "TX1pHFKs25LYON1G2RexlffKv"
+consumer_secret = "2J7Kgv3ADsAgwCNkhobtkGafTAYh6jMT6YrfnYwQXSi1UikntH"
+access_key = "980686444313247744-svYEbkkU3DF35AlnfjGFDXRYnxfQd0p"
+access_secret = "7e0ntRAlLJ1UUCRiMnnjLe62PByFl5EjwVWz41J00mbvw"
 
 def get_all_tweets(screen_name):
 
@@ -42,7 +42,7 @@ def get_all_tweets(screen_name):
     outtweets = [tweet.full_text for tweet in alltweets]
     with open('%s_tweets.txt' % screen_name,'w+') as f:
         for item in outtweets:
-            f.write("%s\n" % item)
+            f.write(("%s\n" % item).encode("utf-8"))
         f.close()
     pass
 
